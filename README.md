@@ -6,10 +6,10 @@ Useful if you want to build your own Asahi Linux kernel for Apple Silicon Macs.
 
 Current kernel configurations:
 
-**asahi-kernel-6.8-gentoo-comprehensive**: Intended to provide distkernel-level support for Asahi on Gentoo, via chadmed's `asahi-overlay` project.  Should work on any arm64 distro to provide support for most (if not all) things you could currently plug into an Apple Silicon Mac (and that are supported by vanilla Linux).
+**asahi-6.9-kernel-big**: Intended to provide distkernel-level support for Asahi on Gentoo, via chadmed's `asahi-overlay` project.  Should work on any arm64 distro to provide support for most (if not all) things you could currently plug into an Apple Silicon Mac (and that are supported by vanilla Linux).
 
 https://github.com/chadmed/asahi-overlay
 
-**asahi-kernel-6.8-nixos-barebones**: My production kernel on my MacBook Air running NixOS. This config is missing a lot of drivers, including Bluetooth.  The goal here is to make a very tiny kernel that still works as a daily driver, but don't expect uncommon/rare peripherals to work.
+**asahi-6.9-kernel-tiny**: My production kernel on my MacBook Air running NixOS. This config is missing a lot of drivers, including Bluetooth.  The goal here is to make a very tiny kernel that still works as a daily driver, but don't expect uncommon/rare peripherals to work.
 
 https://github.com/zzywysm/nixos-asahi
